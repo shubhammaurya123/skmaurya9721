@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&display=swap" rel="stylesheet">
+    <title>onlinejob2</title>
+    <style>
+        body {
+            background: black;
+            margin: auto;
+            color: white;
+        }
+        
+        .left {
+            position: absolute;
+            top: 13px;
+            left: 10px;
+            display: inline-block;
+        }
+        
+        .left img {
+            width: 80px;
+            height: 50px;
+            display: inline-block;
+        }
+        
+        header::before {
+            content: " ";
+            position: absolute;
+            color: white;
+            background: url('project2/job2.jpg') no-repeat center center/cover;
+            height: 100%;
+            width: 100%;
+            top: 80px;
+            left: 0px;
+            z-index: -1;
+            opacity: 0.4;
+        }
+        
+        .right {
+            position: absolute;
+            right: 35px;
+            top: 5px;
+            display: inline-block;
+            padding: 10px;
+        }
+        
+        .right a {
+            padding: 15px;
+        }
+        
+        .navbaar {
+            font-size: 22px;
+            background-color: black;
+        }
+        
+        .navbaar li {
+            display: inline-block;
+            padding: 10px;
+            ;
+            color: white;
+        }
+        
+        .navbaar li a {
+            position: relative;
+            text-decoration: none;
+            list-style: none;
+            left: 60px;
+        }
+        
+        .navbaar ul li a {
+            color: white;
+        }
+        
+        .btn {
+            background-color: red;
+            font-family: 'Baloo Bhaina 2', cursive;
+            color: white;
+            height: 40px;
+            width: 120px;
+            margin: 10px;
+            border-radius: 20px;
+            font-size: 20px;
+            text-align: center;
+            border: 2px solid green;
+        }
+        
+        .btn:hover,
+        .btn:active {
+            color: ;
+            text-decoration: underline;
+        }
+        
+        .sh {
+            color: white;
+            width: 600px;
+            text-align: center;
+            margin: 90px auto;
+        }
+        
+        .sh input {
+            width: 400px;
+            height: 35px;
+            display: inline-block;
+            border: 1px solid green;
+            padding: 9px 30px;
+            margin: 10px;
+            border-radius: 13px;
+            text-align: center;
+        }
+        
+        .ktn {
+            background-color: blue;
+            font-family: 'Baloo Bhaina 2', cursive;
+            color: white;
+            height: 60px;
+            width: 300px;
+            margin: 10px;
+            border-radius: 30px;
+            font-size: 20px;
+            text-align: center;
+            border: 2px solid black;
+        }
+        
+        .ktn:hover,
+        .ktn:active {
+            color: red;
+            text-decoration: underline;
+        }
+        
+        #pk {
+            text-decoration: underline;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="contener">
+        <span class="left"> <img src="project/nk.jpg" alt=""></span>
+        <div class="navbaar">
+            <ul>
+                <li><a href="postajob.html">Post a job</a></li>
+                <li><a href="#" id="pk">Find resumes</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+            <span class="right">
+            <a >Help center ?</a>
+            <button class="btn" style="color:white"><a href="mk.html" > Sign in</a></button>
+            <a href="nk.html" style="color:white" >Find job</a>
+        </span>
+        </div>
+        <div class="sh">
+            <h1>What</h1>
+            Job title, skills, or company<br>
+            <input type="name" placeholder="Job title, skills, or company"><br>
+            <h1>Where</h1>
+            City, state, or pincode
+            <input type="name" placeholder=" City, state, or pincode"><br><br>
+            <button class="ktn"><a > Find resumes</a></button>
+
+        </div>
+    </header>
+</body>
+
+</html>
